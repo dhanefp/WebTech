@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Classes and IDs | Emmet Laboratory</title>
+  <link rel="stylesheet" href="lab.css">
+</head>
+<body>
+  <nav class="lab-nav" aria-label="Lab pages">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="01-basic.html">01 Basic</a></li>
+      <li><a href="02-classes-ids.html" aria-current="page">02 Classes and IDs</a></li>
+      <li><a href="03-navigation.html">03 Navigation</a></li>
+      <li><a href="04-form.html">04 Form</a></li>
+      <li><a href="05-semantic.html">05 Semantic</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+    </ul>
+  </nav>
+  <h1>Classes and IDs</h1>
+  <p>A dot adds a class and a hash adds an id.</p>
+  <p class="abbr"><span>Emmet abbreviation</span><code>p.introduction</code></p>
+  <div class="demo">
+    <p class="introduction">Introduction</p>
+  </div>
+  <p class="abbr"><span>Emmet abbreviation</span><code>div#container</code></p>
+  <div class="demo">
+    <div id="container">Container</div>
+  </div>
+  <p class="abbr"><span>Emmet abbreviation</span><code>div.card.featured</code></p>
+  <div class="demo">
+    <div class="card featured">Featured card</div>
+  </div>
+  <h2>Task</h2>
+  <p class="abbr"><span>Emmet abbreviation</span><code>header.site-header+nav#main-nav+main.content&gt;section#about.content-section^footer.site-footer</code></p>
+  <div class="demo">
+    <header class="site-header">Header</header>
+    <nav id="main-nav">Nav</nav>
+    <main class="content">
+      <section id="about" class="content-section">About</section>
+    </main>
+    <footer class="site-footer">Footer</footer>
+  </div>
+  <nav class="pager" aria-label="Previous and next">
+    <a href="01-basic.html">&larr; 01 Basic</a>
+    <a href="03-navigation.html">03 Navigation &rarr;</a>
+  </nav>
+</body>
+</html>

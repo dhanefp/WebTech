@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Semantic HTML | Emmet Laboratory</title>
+  <link rel="stylesheet" href="lab.css">
+</head>
+<body>
+  <nav class="lab-nav" aria-label="Lab pages">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="01-basic.html">01 Basic</a></li>
+      <li><a href="02-classes-ids.html">02 Classes and IDs</a></li>
+      <li><a href="03-navigation.html">03 Navigation</a></li>
+      <li><a href="04-form.html">04 Form</a></li>
+      <li><a href="05-semantic.html" aria-current="page">05 Semantic</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+    </ul>
+  </nav>
+  <h1>Semantic HTML</h1>
+  <p>Semantic tags describe what each part of the page is for, which helps screen readers and search engines.</p>
+  <p class="abbr"><span>Emmet abbreviation</span><code>header&gt;h1^nav&gt;ul&gt;li*4&gt;a^^main&gt;section&gt;article^^aside+footer&gt;p</code></p>
+  <div class="demo">
+    <header>
+      <h1>My Website</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section>
+        <article>This is an article.</article>
+      </section>
+    </main>
+    <aside>This is a side note.</aside>
+    <footer>
+      <p>Copyright 2026</p>
+    </footer>
+  </div>
+  <nav class="pager" aria-label="Previous and next">
+    <a href="04-form.html">&larr; 04 Form</a>
+    <a href="portfolio.html">Portfolio &rarr;</a>
+  </nav>
+</body>
+</html>

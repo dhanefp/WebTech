@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lists and Navigation | Emmet Laboratory</title>
+  <link rel="stylesheet" href="lab.css">
+</head>
+<body>
+  <nav class="lab-nav" aria-label="Lab pages">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="01-basic.html">01 Basic</a></li>
+      <li><a href="02-classes-ids.html">02 Classes and IDs</a></li>
+      <li><a href="03-navigation.html" aria-current="page">03 Navigation</a></li>
+      <li><a href="04-form.html">04 Form</a></li>
+      <li><a href="05-semantic.html">05 Semantic</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+    </ul>
+  </nav>
+  <h1>Lists and Navigation</h1>
+  <p>A dollar sign numbers repeated items, and curly braces add text.</p>
+  <p class="abbr"><span>Emmet abbreviation</span><code>ul&gt;li.item$*5</code></p>
+  <div class="demo">
+    <ul>
+      <li class="item1">Item 1</li>
+      <li class="item2">Item 2</li>
+      <li class="item3">Item 3</li>
+      <li class="item4">Item 4</li>
+      <li class="item5">Item 5</li>
+    </ul>
+  </div>
+  <p class="abbr"><span>Emmet abbreviation</span><code>ul&gt;li{Menu $}*5</code></p>
+  <div class="demo">
+    <ul>
+      <li>Menu 1</li>
+      <li>Menu 2</li>
+      <li>Menu 3</li>
+      <li>Menu 4</li>
+      <li>Menu 5</li>
+    </ul>
+  </div>
+  <h2>Challenge</h2>
+  <p class="abbr"><span>Emmet abbreviation</span><code>nav&gt;ul&gt;li*5&gt;a[href=#]</code></p>
+  <div class="demo">
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+  <nav class="pager" aria-label="Previous and next">
+    <a href="02-classes-ids.html">&larr; 02 Classes and IDs</a>
+    <a href="04-form.html">04 Form &rarr;</a>
+  </nav>
+</body>
+</html>
