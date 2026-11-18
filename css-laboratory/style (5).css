@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: navy;
+    text-transform: uppercase;
+}
+
+#page-title {
+    text-align: center;
+}
+
+h2,
+h3 {
+    color: #2e4a62;
+    font-family: Verdana, sans-serif;
+    border-bottom: 2px solid #cccccc;
+    padding-bottom: 5px;
+}
+
+.card {
+    background-color: #eeeeee;
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid #999999;
+}
+
+.card p {
+    color: #444444;
+}
+
+.highlight {
+    color: #c0392b;
+}

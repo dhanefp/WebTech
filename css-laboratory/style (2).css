@@ -1,0 +1,38 @@
+body {
+    background-color: #f5f7fa;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 40px;
+}
+
+h1 {
+    font-size: 32px;
+    color: #14305e;
+    text-align: center;
+}
+
+h2 {
+    font-size: 22px;
+    color: #1e6b3a;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+ul {
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+a {
+    color: #145da0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #14305e;
+}
